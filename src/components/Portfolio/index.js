@@ -5,21 +5,35 @@ import Card from "../Card";
 
 export default function Portfolio() {
   const projects = [
+    
     {
-      title: "card-1",
-      image: "path here",
-      tools: "tools used ex. MERN",
+      title: "Shelter Connect",
+      image: "screenshot.jpg",
+      tools: "NodeJs",
+      link:"https://shelter-connection.herokuapp.com/"
+      
     },
-    {
-      title: "card-2",
-      image: "path here",
-      tools: "tools used ex. MERN",
-    },
-    {
-      title: "card-3",
-      image: "path here",
-      tools: "tools used ex. MERN",
-    },
+    // {
+    //   title: "Shelter Connect",
+    //   image: "path here",
+    //   tools: "NodeJs",
+    //   link:"https://shelter-connection.herokuapp.com/"
+      
+    // },
+    // {
+    //   title: "Shelter Connect",
+    //   image: "path here",
+    //   tools: "NodeJs",
+    //   link:"https://shelter-connection.herokuapp.com/"
+      
+    // },
+    // {
+    //   title: "Shelter Connect",
+    //   image: "path here",
+    //   tools: "NodeJs",
+    //   link:"https://shelter-connection.herokuapp.com/"
+      
+    // },
   ];
   return (
 
