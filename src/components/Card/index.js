@@ -3,11 +3,11 @@ import "./Card.css";
 export default function Card({ title, image, link, tools }) {
   return (
 
-    <div className="container">
+    <div className="card-container">
     <a href={link}>
       <div className="card card-1 card-grid">
         {/* {title} {image} {tools}  */}
-        <img src={image}/>
+        <img className="img" src={image}/>
       </div>
     </a>
 

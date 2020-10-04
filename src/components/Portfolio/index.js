@@ -1,6 +1,7 @@
 import React from 'react';
 // import { makeStyles } from '@material-ui/core/styles';
 // import Button from '@material-ui/core/Button';
+import "./portfolio.css"
 import Card from "../Card";
 
 export default function Portfolio() {
@@ -37,13 +38,16 @@ export default function Portfolio() {
   ];
   return (
 
-
-        projects.map(project => {
+<div className="grid">
+ {projects.map(project => {
             return <Card {...project} key={project.title} />
+
             
             
-        })
+            
+  })}
     
+          </div>
   )
 
   // jsx img src links href and css grid
