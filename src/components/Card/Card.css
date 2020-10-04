@@ -1,5 +1,11 @@
 
-  
+  .container {
+    display: grid;
+
+  }
+
+
+
   .card {
     background: #fff;
     border-radius: 2px;

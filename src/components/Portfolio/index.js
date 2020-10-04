@@ -8,18 +8,18 @@ export default function Portfolio() {
     
     {
       title: "Shelter Connect",
-      image: "screenshot.jpg",
-      tools: "NodeJs",
+      image: "screenshot.jpg", //default image paths in public are recognized by React so no need to write path if image is in public
+      tools: "NodeJs, Mysql2",
       link:"https://shelter-connection.herokuapp.com/"
       
     },
-    // {
-    //   title: "Shelter Connect",
-    //   image: "path here",
-    //   tools: "NodeJs",
-    //   link:"https://shelter-connection.herokuapp.com/"
+    {
+      title: "Covid-19 Data",
+      image: "screenshot2.png",
+      tools: "NodeJs, Express Js, Heroku",
+      link:"https://covid-19-data-data.herokuapp.com/"
       
-    // },
+    },
     // {
     //   title: "Shelter Connect",
     //   image: "path here",
