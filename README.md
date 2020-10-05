@@ -3,7 +3,7 @@
 # Description 
 
 `
-My portofolio REACT Application. The portfolio is deployed via github pages. The single page application has a nav bar where the user can find links and screens shots to my current projects, Resume , and a contact form. `
+My portofolio REACT Application. The portfolio is deployed via github pages. The single page application has a nav bar where the user can find links and screens shots to my current projects, Resume , contact form, and footer: clickable icons to my github and linkedIn. `
 
 
 # Github 
