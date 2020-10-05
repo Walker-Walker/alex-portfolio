@@ -8,8 +8,8 @@ My portofolio REACT Application. The portfolio is deployed via github pages. The
 
 # Github 
 
-![Github](https://github.com/Walker-Walker)
+[Github](https://github.com/Walker-Walker)
 
 # Portfolio
 
-![Portfolio](https://walker-walker.github.io/alex-portfolio/)
+[Portfolio](https://walker-walker.github.io/alex-portfolio/)
