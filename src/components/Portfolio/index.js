@@ -21,13 +21,13 @@ export default function Portfolio() {
       link:"https://covid-19-data-data.herokuapp.com/"
       
     },
-    // {
-    //   title: "Shelter Connect",
-    //   image: "path here",
-    //   tools: "NodeJs",
-    //   link:"https://shelter-connection.herokuapp.com/"
+    {
+      title: "Whats in your Fridge",
+      image: "fridge.jpg",
+      tools: "NodeJs,MERN",
+      link:"https://whats-in-your-fridge-project3.herokuapp.com/"
       
-    // },
+    },
     // {
     //   title: "Shelter Connect",
     //   image: "path here",

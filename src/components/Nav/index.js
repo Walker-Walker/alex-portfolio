@@ -1,5 +1,6 @@
 import React from "react";
 import {capitalizeFirstLetter} from '../../utils/helpers';
+import "./nav.css"
 
 const Nav = (props) => {
   const { pages = [], currentPage, setCurrentPage } = props;
