@@ -22,7 +22,7 @@ export default function Portfolio() {
       
     },
     {
-      title: "What's in your Fridge",
+      title: "What's in your Fridge?",
       image: "fridge.jpg",
       tools: "NodeJs,MERN",
       link:"https://whats-in-your-fridge-project3.herokuapp.com/"
