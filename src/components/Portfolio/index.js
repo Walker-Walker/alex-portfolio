@@ -27,7 +27,7 @@ export default function Portfolio() {
       tools: "NodeJs,MERN",
       link:"https://whats-in-your-fridge-project3.herokuapp.com/"
       
-    },
+    }
     // {
     //   title: "Shelter Connect",
     //   image: "path here",
