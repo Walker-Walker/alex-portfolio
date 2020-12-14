@@ -4,6 +4,13 @@ var nodemailer = require('nodemailer');
 var cors = require('cors');
 const creds = require('./config');
 
+// const path = require('path');
+// require('dotenv').config({ path: path.resolve(__dirname, '../../.env') });
+
+// const secret = process.env.SECRET;
+// console.log('SECRET', secret);
+
+
 var transport = {
     host: 'smtp.office365.com', // Don’t forget to replace with the SMTP host of your provider
     port: 587,
