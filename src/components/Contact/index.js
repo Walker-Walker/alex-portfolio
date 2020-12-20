@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import axios from "axios";
 import { validateEmail } from "../../utils/helpers";
-require('dotenv').config()
+
 // import  render  from "@testing-library/react";
-//I need to use usestate hooks for this cant use props
+//I need to use useEffect hooks for this cant use props
 export default function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -14,6 +14,28 @@ export default function Contact() {
   });
 
   const { name, email, message } = formState;
+  const [sendEmail, setSendEmail] = useState();
+//useEffect 
+useEffect(() => {
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    axios({
+      method: "POST",
+      url: "http://localhost:3001/send", //look up port# //
+      data: this.state,
+    }).then((response) => {
+      if (response.data.status === "success") {
+        alert("Message Sent!");
+        this.resetForm();
+      } else if (response.data.status === "fail") {
+        alert("Message failed to send.");
+      }
+    });
+    // console.log(formState);
+  }
+})
+
 
   function handleChange(e) {
     if (e.target.name === "email") {
@@ -42,22 +64,7 @@ export default function Contact() {
 
   // completed handleSubmit(e) function via mailtrap documentation  https://blog.mailtrap.io/react-contact-form/#Using_Expressjs_Nodemailer
  
-  function handleSubmit(e) {
-    e.preventDefault();
-    axios({
-      method: "POST",
-      url: "http://localhost:3001/send", //look up port# //
-      data: this.state,
-    }).then((response) => {
-      if (response.data.status === "success") {
-        alert("Message Sent!");
-        this.resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
-      }
-    });
-    // console.log(formState);
-  }
+ 
 
   function resetForm() {
     this.setState({ name: "", email: "", message: "" });

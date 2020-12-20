@@ -6,7 +6,7 @@ const Nav = (props) => {
   const { pages = [], currentPage, setCurrentPage } = props;
   return (
     <header className="flex-row">
-      <h1> Walker </h1>
+      <h1> Alex Walker </h1>
 
       <nav>
         <ul className="flex-row">
