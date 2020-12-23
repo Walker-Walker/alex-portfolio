@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { Document, Page, pdfjs } from "react-pdf";
-import cv from "./CV.pdf";
+import cv from "./_Alex Walker CV.pdf";
 import "./resume.css"
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -9,6 +9,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default function Resume() {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
+  
 
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
@@ -18,9 +19,10 @@ export default function Resume() {
     <div>
       <Document file={cv} onLoadSuccess={onDocumentLoadSuccess} >
         <Page pageNumber={pageNumber} />
+        <Page pageNumber={setPageNumber}/>
       </Document>
       <p>
-        {/* Page {pageNumber} of {numPages} */}
+         Page {pageNumber} of {numPages} 
       </p>
     </div>
   );

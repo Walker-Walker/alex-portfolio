@@ -70,7 +70,7 @@ import React, { useState, useEffect } from "react";
 function Contact() {
   return (
     <section>
-      <h1>Contact me</h1>
+      <h1>Contact</h1>
 
       <ul>
         <li>

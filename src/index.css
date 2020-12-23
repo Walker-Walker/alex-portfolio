@@ -6,12 +6,12 @@ main {
  
 }
 :root {
-  --primary: #8c54ff;
+  --primary: #1e0f3b;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #050303;
-  --dark: #8b8f9763;
-  --darker: #111111;
+  --dark: #13141663;
+  --darker: #552c2c;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -55,6 +55,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  padding: 10px;
 }
 
 h2 {
