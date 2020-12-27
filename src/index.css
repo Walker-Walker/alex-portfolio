@@ -153,7 +153,8 @@ li {
 }
 
 nav a:hover {
-  text-decoration: none;
+  /* text-decoration: none; */
+  background-color: yellow;;
 }
 
 nav  li {
@@ -207,10 +208,10 @@ textarea {
   margin-bottom: var(--spacing-two);
 }
 
-.my-5 {
+/* .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
-}
+} */
 
 .px-1 {
   padding-right: var(--spacing-one);

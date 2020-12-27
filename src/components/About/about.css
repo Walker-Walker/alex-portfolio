@@ -3,3 +3,14 @@
     border:1px solid black;
     
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.intro {
+    margin-top: 10rem;
+}
+
