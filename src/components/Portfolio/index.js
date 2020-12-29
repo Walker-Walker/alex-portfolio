@@ -10,7 +10,7 @@ export default function Portfolio() {
     {
       title: "Shelter Connect",
       image: "screenshot.jpg", //default image paths in public are recognized by React so no need to write path if image is in public
-      tools: "NodeJs, Mysql2",
+      tools: "NodeJs, Mysql2, Sequelize, Bootstrap ",
       link:"https://shelter-connection.herokuapp.com/"
       
     },
@@ -24,7 +24,7 @@ export default function Portfolio() {
     {
       title: "What's in your Fridge?",
       image: "fridgescaled.png",
-      tools: "NodeJs,MERN",
+      tools: "NodeJs, MERN, Bootstrap, GraphQL, Mongoose, MongoDB",
       link:"https://whats-in-your-fridge-project3.herokuapp.com/"
       
     }
