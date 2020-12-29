@@ -27,6 +27,7 @@ export default function Resume() {
       <ul>
         <li>NodeJs</li>
         <li>Mysql2</li>
+        <li>Sequelize</li>
         <li>Sqlite3</li>
         <li>Bootstrap</li>
         <li>Handlebars</li>
