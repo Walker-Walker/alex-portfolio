@@ -6,17 +6,17 @@ main {
  
 }
 :root {
-  --primary: #1e0f3b;
-  --secondary: #23c2b5;
-  --tertiary: #B12704;
-  --light: #050303;
+  --primary: #ffffff;
+  --secondary: #000000;
+  --tertiary: #89c00a;
+  --light: #f5f1f1;
   --dark: #13141663;
   --darker: #552c2c;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
+  background-image:url(./components/Nav/hero.jpg);
 }
 
 * {
@@ -47,8 +47,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-family: 'courier', sans-serif;
+  font-weight: 600;
   margin: 5px 0;
   line-height: 1.25;
 }
@@ -94,7 +94,8 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  /* background: var(--dark); */
+  background-image:url(./components/Nav/hero.jpg);
 }
 
 header a {
