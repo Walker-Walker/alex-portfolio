@@ -4,9 +4,9 @@ import "./about.css";
 
 function About() {
   return (
-    <div className="grid-container">
+    <div className="grid-container2">
 
-      <section className="my-5">
+      <section className="about-me-photo">
         <h1 id="about">About me </h1>
         <img
           src={coverImage}
