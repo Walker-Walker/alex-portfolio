@@ -5,6 +5,7 @@ import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
+import Title from "./components/Title"
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // require('dotenv').config()
 // import logo from './logo.svg';
@@ -51,7 +52,9 @@ function App() {
   // }
 
   return (
+    
     <div>
+      <Title/>
       <Nav
         pages={pages}
         currentPage={currentPage}
