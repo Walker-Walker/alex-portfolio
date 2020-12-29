@@ -33,6 +33,7 @@
   .card {
     background: #fff;
     border-radius: 1rem;
+    border-style:groove;
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
