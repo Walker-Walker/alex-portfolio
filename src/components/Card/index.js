@@ -8,7 +8,7 @@ export default function Card({title, tools, image, link }) {
      
     <a style={{display:"table-cell"}} href={link} target="_blank" rel="noopener noreferrer"> 
       <div className="card card-1 card-grid">
-        <img className="img" src={image}/>
+        <img className="img" src={image} style={{resizeMode:'stretch',width:"80%",height:'90%'}}/>
         Title:{title} Tools:{tools} 
       </div>
     </a>
