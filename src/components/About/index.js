@@ -1,5 +1,5 @@
 import React from "react";
-import coverImage from "../../assets/cover/cover-image.jpeg";
+import coverImage from "../../assets/cover/alt-cover-image.JPG";
 import "./about.css";
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
         <img
           src={coverImage}
           className="my-2 cover-image"
-          style={{ width: "80%" }}
+          style={{ width: "80%", height: "80%"}}
           alt="cover"
         />
       </section>

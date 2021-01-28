@@ -2,13 +2,25 @@ import React from "react";
 import {capitalizeFirstLetter} from '../../utils/helpers';
 import "./nav.css"
 
+
 const Nav = (props) => {
+
+  // function myFunction() {
+  //   var x = document.getElementById("myTopnav");
+  //   if (x.className === "topnav") {
+  //     x.className += " responsive";
+  //   } else {
+  //     x.className = "topnav";
+  //   }
+  // }
+
   const { pages = [], currentPage, setCurrentPage } = props;
   return (
+    
     <header className="flex-row">
       <h1> Alex Walker </h1>
 
-      <nav>
+      <nav className="topnav" id="myTopnav">
         <ul className="flex-row">
           {pages.map((page) => (
             <li
@@ -27,6 +39,9 @@ const Nav = (props) => {
             </li>
           ))}
         </ul>
+        <a href='javascript:void(0);' class="icon" onClick='myFunction()'>
+          <i class='fa fa-bars'></i>
+        </a>
       </nav>
     </header>
   );
