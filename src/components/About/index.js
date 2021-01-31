@@ -7,7 +7,7 @@ function About() {
     <div className="grid-container2">
 
       <section className="about-me-photo">
-        <h1 id="about">About me </h1>
+        <h1 id="about">About Me </h1>
         <img
           src={coverImage}
           className="my-2 cover-image"
