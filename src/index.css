@@ -16,7 +16,7 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-  background-image:url(./components/Nav/hero.jpg);
+  background-image:url(./components/Nav/IMG-2570.jpg);
 }
 
 * {
@@ -93,14 +93,7 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
-  /* background: var(--dark); */
-  background-image:url(./components/Nav/hero.jpg);
-}
 
-header a {
-  color: var(--light);
-}
 
 button {
   font-size: 1rem;
@@ -176,10 +169,7 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .space-between {
   justify-content: space-between;
@@ -294,6 +284,3 @@ a {
 	
 }
 
-.navActive {
-  color: var(--secondary);
-}

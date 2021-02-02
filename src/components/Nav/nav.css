@@ -1,4 +1,24 @@
 /* Add a black background color to the top navigation */
+
+header {
+  background-color: black;
+   /* background: var(--dark);  */
+  /* background-image:url(./components/Nav/hero.jpg); */
+}
+
+header a {
+  color: var(--light);
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 70%;
+}
+
+.navActive {
+  color:yellow;
+}
 .topnav {
     /* background-color: #333; */
     overflow: hidden;
