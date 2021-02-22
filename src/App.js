@@ -17,17 +17,17 @@ function App() {
       page: <About />
     },
     {
-      name: "portfolio",
+      name: "projects",
       page: <Portfolio />
-    },
+    }
     // {
     //   name: "contact",
     //   page: <Contact />
     // },
-    {
-      name: "resume",
-      page: <Resume />
-    },
+    // {
+    //   name: "resume",
+    //   page: <Resume />
+    // },
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);

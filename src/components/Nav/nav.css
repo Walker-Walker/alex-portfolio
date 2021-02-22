@@ -14,7 +14,7 @@ header a {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  opacity: 70%;
+  /* opacity: 70%; */
 }
 
 .navActive {

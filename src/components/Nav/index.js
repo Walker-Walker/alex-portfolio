@@ -40,7 +40,7 @@ const Nav = (props) => {
           ))}
         </ul>
         <a href='javascript:void(0);' class="icon" onClick='myFunction()'>
-          <i class='fa fa-bars'></i>
+          {/* <i class='fa fa-bars'></i> */}
         </a>
       </nav>
     </header>
