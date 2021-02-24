@@ -5,7 +5,7 @@
     display:grid;
    
     /* grid-template-columns: 1fr 1fr 1fr;  */
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr ));
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr ));
     /* grid-template-rows:auto; */
     grid-gap: 1rem;
     /* column-gap: 10px; */
@@ -17,7 +17,7 @@
     flex-wrap: wrap;
   }
 .link-style {
-  color: red;
+  color:#31d691;
   display:flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -73,7 +73,7 @@ text-decoration: none;
     flex-direction: row;
     flex-wrap:wrap;
     /* height: 300px; */
-    margin: 1rem;
+    margin: 3rem;
     position: relative;
     width: 300px;
     /* color: black */

@@ -26,7 +26,7 @@ export default function Projectcard({
                 
               </Card.Link>
               <Card.Link className="link-style" href={Github} style={{display:"table-cell"}} target="_blank" rel="noopener noreferrer">
-                Github
+                Project Github
               </Card.Link>
             </Card.Body>
           </Card>
