@@ -33,6 +33,8 @@ color: black;
   font-family: monospace;
   display: flex;
   justify-content: relative;
+  flex-direction:column;
+  flex-wrap: wrap;
   /* outline: dashed red; */
   
 }
@@ -46,8 +48,8 @@ color: black;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
- @media screen and (max-width: 600px) {
+ /* @media screen and (max-width: 600px) {
     .grid-container {
       width: 100%;
     }
-  } 
+  }  */
