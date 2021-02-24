@@ -1,7 +1,9 @@
 /* Add a black background color to the top navigation */
 
 header {
-  background-color: black;
+  background-color: rgb(22, 22, 17);
+  opacity: 70%;
+  color: #faf3f3;
    /* background: var(--dark);  */
   /* background-image:url(./components/Nav/hero.jpg); */
 }
@@ -14,11 +16,11 @@ header a {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  /* opacity: 70%; */
+  
 }
 
 .navActive {
-  color:yellow;
+  color:rgb(0, 255, 149);
 }
 .topnav {
     /* background-color: #333; */
