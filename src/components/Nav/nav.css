@@ -1,9 +1,10 @@
 /* Add a black background color to the top navigation */
 
 header {
-  background-color: rgb(22, 22, 17);
+  background-color:ivory;
   /* opacity: 70%; */
-  color: #faf3f3;
+  /* color: #faf3f3; */
+  outline:solid;
    /* background: var(--dark);  */
   /* background-image:url(./components/Nav/hero.jpg); */
 }
