@@ -1,31 +1,29 @@
 /* Add a black background color to the top navigation */
 
 header {
-  background-color:ivory;
-  /* opacity: 70%; */
-  /* color: #faf3f3; */
-  outline:solid;
-   /* background: var(--dark);  */
-  /* background-image:url(./components/Nav/hero.jpg); */
+  border: 1px dimgrey;
+  outline-style: solid;
+  outline-width:thin;
 }
 
 header a {
   color: var(--light);
 }
 
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
-  
+  flex-direction: row;
+ 
+  /* justify-content: space-between; */
 }
 
-.navActive {
-  color:rgb(0, 255, 149);
+.navActive:hover {
+  outline-style: solid;
+  outline-width:thin;
 }
 .topnav {
-    /* background-color: #333; */
-    overflow: hidden;
+   overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */

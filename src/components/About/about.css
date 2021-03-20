@@ -9,20 +9,22 @@ color: black;
     
 }
 
-.grid-container1 {
+.grid-container {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    
-
-    /* outline: solid; */
+    grid-template-rows: repeat(auto-fill, minmax(200px, 500px));
+    grid-row-gap:70px;
 }
 
+.hero {
+    background-color: #f5f8fa;
+    height: 100%;
+    width: 100%;
+}
 
 .intro {
     margin-top: 5rem;
-    /* outline:dashed yellow; */
    
 }
 

@@ -5,16 +5,14 @@ import Card from "react-bootstrap/Card";
 
 function About() {
   return (
-    <div className="grid-container1">
-      <section className="about-me-photo">
-        <h1 id="about">About Me </h1>
-        <img
-          src={coverImage}
-          className="my-2 cover-image"
-          style={{ width: "50%", height: "50%" }}
-          alt="cover"
-        />
-      </section>
+    <div className="grid-container">
+      <div className="hero">
+       
+
+      </div>
+        
+  
+      
       <section className="intro">
         <Card border="primary" style={{ width: "25rem", height: "35rem" }}>
           <Card.Header></Card.Header>
