@@ -11,24 +11,32 @@ function About() {
         <img
           src={coverImage}
           className="my-2 cover-image"
-          style={{ width: "80%", height: "80%" }}
+          style={{ width: "50%", height: "50%" }}
           alt="cover"
         />
       </section>
       <section className="intro">
-        <Card border="primary" style={{ width: "25rem", height: "30rem" }}>
+        <Card border="primary" style={{ width: "25rem", height: "35rem" }}>
           <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title></Card.Title>
             <Card.Text>
               Full Stack Web Developer with experience in political science,
               maritime logistics management, and the consistent ability to adapt
-              new challenges. Adept at problem solving, developed and debugged
-              mobile friendly applications. Recently learned and applied new and
-              unfamiliar technologies quickly within the mern stack e.g.
-              graphql, apollo-server-express & react context api. Enthusiastic
-              team player that has demonstrated a strong desire to implement new
-              and established technologies.
+              new challenges.
+              <br />
+              <br />
+              Adept at problem solving, developed and debugged mobile friendly
+              applications.
+              <br /> 
+              <br />
+              Recently learned and applied new and unfamiliar
+              technologies quickly within the mern stack e.g. graphql,
+              apollo-server-express & react context api. 
+              <br />
+              <br />
+              Enthusiastic team player that has demonstrated a strong desire to
+              implement new and established technologies.
             </Card.Text>
           </Card.Body>
         </Card>
@@ -36,7 +44,7 @@ function About() {
 
       <section className="skills">
         <h1>Skills</h1>
-        <Card border="primary" style={{ width: "12rem", height: "12rem" }}>
+        <Card border="primary" style={{ width: "12rem", height: "14rem" }}>
           <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title></Card.Title>
@@ -45,7 +53,7 @@ function About() {
                 <h2>Languages</h2>
 
                 <ul>
-                  <li>Javascript</li>
+                  <li>Javascript</li> add icons here
                   <li>JQuery</li>
                   <li>HTML5</li>
                   <li>CSS3</li>
@@ -54,7 +62,7 @@ function About() {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card border="primary" style={{ width: "18rem", height: "26rem" }}>
+        <Card border="primary" style={{ width: "18rem", height: "27rem" }}>
           <Card.Header></Card.Header>
           <Card.Body>
             <Card.Title>Applications</Card.Title>
