@@ -18,7 +18,7 @@ const Nav = (props) => {
     <header className="flex-row"> 
   <h1>Alex Walker</h1>
       <nav className="flex-row">
-        <ul>
+        <ul className="flex-row">
           {pages.map((page) => (
             <li
               className={`mx-1 ${
