@@ -1,10 +1,8 @@
 import React from "react";
-import {capitalizeFirstLetter} from '../../utils/helpers';
-import "./nav.css"
-
+import { capitalizeFirstLetter } from "../../utils/helpers";
+import "./nav.css";
 
 const Nav = (props) => {
-
   // function myFunction() {
   //   var x = document.getElementById("myTopnav");
   //   if (x.className === "topnav") {
@@ -17,19 +15,18 @@ const Nav = (props) => {
   const { pages = [], currentPage, setCurrentPage } = props;
   return (
     
-    <header className="flex-row">
-      <h1> Alex Walker </h1>
-
-      <nav className="topnav" id="myTopnav">
-        <ul className="flex-row">
+    <header className="flex-row"> 
+  <h1>Alex Walker</h1>
+      <nav className="flex-row">
+        <ul>
           {pages.map((page) => (
             <li
               className={`mx-1 ${
-                currentPage.name === page.name && `navActive`
+                currentPage.name === page.name && ``
               }`}
               key={page.name}
             >
-              <span
+              <span className="mx-1 navActive"
                 onClick={() => {
                   setCurrentPage(page);
                 }}
@@ -39,7 +36,7 @@ const Nav = (props) => {
             </li>
           ))}
         </ul>
-        <a href='javascript:void(0);' class="icon" onClick='myFunction()'>
+        <a href="javascript:void(0);" class="icon" onClick="myFunction()">
           {/* <i class='fa fa-bars'></i> */}
         </a>
       </nav>
