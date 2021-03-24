@@ -1,5 +1,6 @@
 import React from "react";
 import coverImage from "../../assets/cover/alt-cover-image.JPG";
+import profileImage from "../../assets/cover/profilesmall.jpg";
 import "./about.css";
 import Card from "react-bootstrap/Card";
 
@@ -7,12 +8,14 @@ function About() {
   return (
     <div className="grid-container">
       <div className="hero">
-       
-
+        <div className="img-profile-wrapper">
+          <img className="img-profile" src={profileImage} alt="profile" />{" "}
+        </div>
+        <div className="hero-title">
+          <h1>Alex Walker</h1>
+        </div>
       </div>
-        
-  
-      
+
       <section className="intro">
         <Card border="primary" style={{ width: "25rem", height: "35rem" }}>
           <Card.Header></Card.Header>
@@ -26,11 +29,11 @@ function About() {
               <br />
               Adept at problem solving, developed and debugged mobile friendly
               applications.
-              <br /> 
               <br />
-              Recently learned and applied new and unfamiliar
-              technologies quickly within the mern stack e.g. graphql,
-              apollo-server-express & react context api. 
+              <br />
+              Recently learned and applied new and unfamiliar technologies
+              quickly within the mern stack e.g. graphql, apollo-server-express
+              & react context api.
               <br />
               <br />
               Enthusiastic team player that has demonstrated a strong desire to

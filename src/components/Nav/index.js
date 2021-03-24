@@ -15,8 +15,8 @@ const Nav = (props) => {
   const { pages = [], currentPage, setCurrentPage } = props;
   return (
     
-    <header className="flex-row"> 
-  <h1>Alex Walker</h1>
+    <header className="flex-row grid-container"> 
+  <h2>Alex Walker</h2>
       <nav className="flex-row">
         <ul className="flex-row">
           {pages.map((page) => (
