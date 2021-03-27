@@ -17,78 +17,62 @@ function About() {
       </div>
 
       <section className="intro">
-        <Card border="primary" style={{ width: "25rem", height: "35rem" }}>
-          <Card.Header></Card.Header>
-          <Card.Body>
-            <Card.Title></Card.Title>
-            <Card.Text>
-              Full Stack Web Developer with experience in political science,
-              maritime logistics management, and the consistent ability to adapt
-              new challenges.
-              <br />
-              <br />
-              Adept at problem solving, developed and debugged mobile friendly
-              applications.
-              <br />
-              <br />
-              Recently learned and applied new and unfamiliar technologies
-              quickly within the mern stack e.g. graphql, apollo-server-express
-              & react context api.
-              <br />
-              <br />
-              Enthusiastic team player that has demonstrated a strong desire to
-              implement new and established technologies.
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <h3>About me</h3>
+
+        <p>
+          Full Stack Web Developer with experience in political science,
+          maritime logistics management, and the consistent ability to adapt new
+          challenges. Adept at problem solving, developed and debugged mobile
+          friendly applications.
+          <br />
+          <br />
+          Recently learned and applied new and unfamiliar technologies quickly
+          within the mern stack e.g. graphql, apollo-server-express & react
+          context api.
+          <br />
+          <br />
+          Enthusiastic team player that has demonstrated a strong desire to
+          implement new and established technologies.
+        </p>
       </section>
 
       <section className="skills">
-        <h1>Skills</h1>
-        <Card border="primary" style={{ width: "12rem", height: "14rem" }}>
-          <Card.Header></Card.Header>
-          <Card.Body>
-            <Card.Title></Card.Title>
-            <Card.Text>
-              <section className="languages">
-                <h2>Languages</h2>
+        <h3>Skills</h3>
 
-                <ul>
-                  <li>Javascript</li> add icons here
-                  <li>JQuery</li>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                </ul>
-              </section>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card border="primary" style={{ width: "18rem", height: "27rem" }}>
-          <Card.Header></Card.Header>
-          <Card.Body>
-            <Card.Title>Applications</Card.Title>
-            <Card.Text>
-              <section className="apps">
-                {/* <h2>Applications</h2> */}
-                <ul>
-                  <li>NodeJs</li>
-                  <li>Mysql2</li>
-                  <li>Sequelize</li>
-                  <li>Sqlite3</li>
-                  <li>Bootstrap</li>
-                  <li>Handlebars</li>
-                  <li>MongoDB</li>
-                  <li>Mongoose</li>
-                  <li>Gitbash</li>
-                  <li>ExpressJS</li>
-                  <li>React</li>
-                  <li>MERN</li>
-                  <li>GraphQL</li>
-                </ul>
-              </section>
-            </Card.Text>
-          </Card.Body>
-        </Card>
+        <p>
+          Comfortable with Vanilla Javascript, light experience with Jquery, and
+          adept with HTML5, and CSS3.
+        </p>
+
+        {/* <section className="languages">
+          <ul>
+            <li>Javascript</li> add icons here
+            <li>JQuery</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </section> */}
+
+        <h3>Applications</h3>
+        <p>
+          I've contributed to projects and assignments, as well as created web
+          applications utilizing the following applications and libraries.
+        </p>
+        <ul className='apps-list'>
+          <li>NodeJs</li>
+          <li>Mysql2</li>
+          <li>Sequelize</li>
+          <li>Sqlite3</li>
+          <li>Bootstrap</li>
+          <li>Handlebars</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
+          <li>Gitbash</li>
+          <li>ExpressJS</li>
+          <li>React</li>
+          <li>MERN</li>
+          <li>GraphQL</li>
+        </ul>
       </section>
     </div>
   );
