@@ -1,9 +1,10 @@
 /* Add a black background color to the top navigation */
 
 header {
-  border: 1px dimgrey;
-  outline-style: solid;
-  outline-width:thin;
+  /* border: 1px dimgrey;
+  outline-style: solid; */
+  /* outline-width:thin; */
+  border-bottom: solid thin black;
 }
 
 .grid-container {

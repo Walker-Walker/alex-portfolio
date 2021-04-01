@@ -9,7 +9,7 @@
 
 .grid-container {
   display: grid;
-  outline: dashed pink;
+  /* outline: dashed pink; */
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50% 200px auto;
@@ -23,6 +23,7 @@
   background-color: #f5f8fa;
   height: 80%;
   width: 100%;
+  border-bottom: solid thin gray;
 }
 .img-profile-wrapper {
   display: flex;
@@ -66,4 +67,16 @@
 
 .apps-list {
     list-style-type: square;
+}
+
+.contact {
+  grid-row-start: 2;
+  grid-column-start: 3;
+  list-style-type: none;
+}
+
+.contact-links a {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
